@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Description
 
-## Getting Started
+A full-stack Language learning SaaS with Next.js, React, PostgresDB, Stripe. Users will be able to choose a language course, with beautiful design, characters, audio & visual effects.
 
-First, run the development server:
+# UI Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**Here's a glimpse of the Website, highlighting its features and aesthetics.**
+
+![lingo1](https://s2.loli.net/2024/06/10/M8UHcfk6Wd5IOYy.jpg)
+
+
+
+**Main view of the Website**
+
+![lingo2](https://s2.loli.net/2024/06/10/cifIS9xT8rRv51N.jpg)
+
+# Project Features
+
+This project showcases the following features:
+
+- Next.js & server actions
+- AI Voices using Elevenlabs AI
+- Beautiful component system using Shadcn UI
+- Auth using Clerk
+- Sound effects
+- Hearts system
+- Points / XP system
+- No hearts left popup
+- Leaderboard
+- Quests milestones
+- Shop system to exchange points with hearts
+- Pro tier for unlimited hearts using Stripe
+- Admin dashboard React Admin
+- PostgresDB using NeonDB
+- Mobile responsiveness
+
+
+
+# Technologies Used
+
+The project is built using the following technologies and libraries:
+
+- TypeScript
+- Next.js
+- React
+- Stripe
+- PostgresDB
+- NeonDB
+- Tailwind CSS
+
+# Installation and Running
+
+Follow the steps below to set up and run this project on your local environment:
+
+### Install Dependencies
+
+Follow the steps below to set up and run this project on your local environment;
+
+```
+npm install
+
+#or
+
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Run the Project
 
-## Learn More
+Once the dependencies are installed, you can run the project using 
 
-To learn more about Next.js, take a look at the following resources:
+```
+npm run dev
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#or 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+yarn dev
+```
 
-## Deploy on Vercel
+The application will start and by default can be accessed at http://localhost:3000.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# How to Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions to this project are always welcome. Here's how you can help enhance its features or make improvements:
+
+### Fork the Repository
+
+Start by forking the project repository, then clone your fork using:
+
+```
+git clone https://github.com/EthanCh30/Language-Learning-SaaS.git
+```
+
+### Create a New Branch
+
+It's recommended to create a new branch for each feature or fix:
+
+```
+git checkout -b name-of-your-new-branch
+```
+
+### Make Your Changes
+
+Implement your desired modifications or additions to the code.
+
+### Commit Your Changes
+
+Once done, save your changes:
+
+```
+git commit -m"Provide a brief description of your changes here"
+```
+
+
+
+### Push to Your Branch
+
+Push your updates to your branch:
+
+```
+git push origin name-of-your-new-branch
+```
+
+### Open a Pull Request
+
+Navigate to the original project repository on GitHub and submit a pull request, Ensure you give a detailed explanation of the changes you've made.
+
+Your contribution will be reviewed, and if it meets the project's standards and objectives, it'll be merged. Thanks in advance for your effort and input!
+
+# Contact Me
+
+If you have questions or wish to discuss the project further, don't hesitate to reach out:
+
+- **Email:** zhiyunchen60@gmail.com
+
+I'm always open to feedback, collaboration, or general inquiries. Looking forward to hearing from you!
